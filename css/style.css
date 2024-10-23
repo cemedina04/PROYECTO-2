@@ -1,0 +1,23 @@
+/* Aqui vamos a definir el fondo y marco del reloj*/
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 34, 32);
+}
+/* Estos son los estilos para definir el reloj */
+.reloj {
+    border: 1rem solid rgb(17, 128, 118);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50vh;
+    font-family: monospace;
+    font-size: 3rem;
+    color: rgb(170, 61, 146);
+
+}
